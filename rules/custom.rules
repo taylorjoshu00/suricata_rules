@@ -1,0 +1,1 @@
+alert http any any -> any any (msg:"002-juno_16020101_eanab_heisenberg-409749 5.16.2.1.1 User Agent"; http.user_agent; content:"002-juno_16020101_eanab_heisenberg-409749 5.16.2.1.1"; sid:6000001; rev:1;)
